@@ -1,6 +1,6 @@
 {
   "name": "@rello-platform/oven-engagement",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Canonical zod schema for the Rello → The Oven engagement-config sync payload (Q6.1 / Tier 2.4).",
   "type": "module",
   "main": "dist/index.js",
@@ -12,8 +12,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
   },
   "dependencies": {
     "zod": "^4.3.5"
